@@ -13,7 +13,7 @@ import java.util.List;
 public class PostinganData {
     private static List<PostingansStruktur> postingansStrukturList = new ArrayList<>();
 
-    private static List<PrayaTengah> initDataPrayaTengah(Context ctx){
+    private static List<PrayaTengah> initDataPrayaTengah(){
         List<PrayaTengah> postingansList =  new ArrayList<>();
         postingansList.add(new PrayaTengah("Edwin","17 September 2021","9990",R.drawable.pembina_lks));
         postingansList.add(new PrayaTengah("Edwin","09 September 2021","880",R.drawable.pembina_lks2));
@@ -21,7 +21,7 @@ public class PostinganData {
         return postingansList;
     }
 
-    private static List<SegaraAnak> initDataSegaraAnak(Context ctx){
+    private static List<SegaraAnak> initDataSegaraAnak(){
         List<SegaraAnak> postingansList =  new ArrayList<>();
         postingansList.add(new SegaraAnak("Edwin","29 September 2021","120",R.drawable.segara_anak));
         postingansList.add(new SegaraAnak("Edwin","07 September 2021","330",R.drawable.segara_anak2));
@@ -29,7 +29,7 @@ public class PostinganData {
         return postingansList;
     }
 
-    private static List<Rinjani> initDataRinjani(Context ctx){
+    private static List<Rinjani> initDataRinjani(){
         List<Rinjani> postingansList =  new ArrayList<>();
         postingansList.add(new Rinjani("Edwin","24 September 2021","9230",R.drawable.rinjani_segara_anak));
         postingansList.add(new Rinjani("Edwin","22 September 2021","310",R.drawable.rinjani_segara_anak2));
@@ -37,15 +37,15 @@ public class PostinganData {
         return postingansList;
     }
 
-    private static void initAllPostingans(Context ctx){
-        postingansStrukturList.addAll(initDataPrayaTengah(ctx));
-        postingansStrukturList.addAll(initDataSegaraAnak(ctx));
-        postingansStrukturList.addAll(initDataRinjani(ctx));
+    private static void initAllPostingans(){
+        postingansStrukturList.addAll(initDataPrayaTengah());
+        postingansStrukturList.addAll(initDataSegaraAnak());
+        postingansStrukturList.addAll(initDataRinjani());
     }
 
-    public static List<PostingansStruktur> getAllPostingans(Context ctx){
+    public static List<PostingansStruktur> getAllPostingans(){
         if(postingansStrukturList.size() == 0){
-            initAllPostingans(ctx);
+            initAllPostingans();
         }
         return postingansStrukturList;
     }
@@ -53,7 +53,7 @@ public class PostinganData {
     public static List<PostingansStruktur> getPostingansByLokasi(Context ctx, String lokasi){
         List<PostingansStruktur> PostinganByLokasi = new ArrayList<>();
         if(postingansStrukturList.size() == 0){
-            initAllPostingans(ctx);
+            initAllPostingans();
         }
         for (PostingansStruktur p : postingansStrukturList){
             if(p.getLokasi().equals(lokasi)){

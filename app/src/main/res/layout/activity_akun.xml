@@ -85,55 +85,64 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NIM"/>
+            android:text="NIM"
+            android:textColor="#757375"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="200602071"/>
+            android:text="200602071"
+            android:textColor="#757375"/>
 
         <View
             android:id="@+id/divider2"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="?android:attr/listDivider" />
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="#757375"/>
 
         <TextView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Prodi"/>
+            android:text="Prodi"
+            android:textColor="#757375"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Teknik Informatika"/>
+            android:text="Teknik Informatika"
+            android:textColor="#757375"/>
 
         <View
             android:id="@+id/divider3"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="?android:attr/listDivider" />
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="#757375"/>
 
         <TextView
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hobi"/>
+            android:text="Hobi"
+            android:textColor="#757375"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Hobi saya adalah touring dan mengoding"/>
+            android:text="Hobi saya adalah touring dan mengoding"
+            android:textColor="#757375"/>
 
         <View
             android:id="@+id/divider4"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="?android:attr/listDivider" />
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="#757375"/>
 
     </LinearLayout>
 

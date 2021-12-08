@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Latihan1">
         <activity
+            android:name=".DetailStatusAkunActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DaftarStatusActivity"
+            android:exported="true" />
+        <activity
             android:name=".PostingansActivity"
             android:exported="true" />
         <activity

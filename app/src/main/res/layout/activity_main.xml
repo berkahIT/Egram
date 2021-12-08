@@ -274,7 +274,8 @@
                                     android:gravity="center"
                                     android:text="Edwin"
                                     android:textSize="16dp"
-                                    android:textStyle="bold" />
+                                    android:textStyle="bold"
+                                    android:textColor="#757375"/>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -375,7 +376,8 @@
                                     android:gravity="center"
                                     android:text="Edwin"
                                     android:textSize="16dp"
-                                    android:textStyle="bold" />
+                                    android:textStyle="bold"
+                                    android:textColor="#757375"/>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -476,7 +478,8 @@
                                     android:gravity="center"
                                     android:text="Edwin"
                                     android:textSize="16dp"
-                                    android:textStyle="bold" />
+                                    android:textStyle="bold"
+                                    android:textColor="#757375"/>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"

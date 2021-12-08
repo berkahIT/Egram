@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_status);
         inisialisasiview();
 
         profile = findViewById(R.id.btnProfile);
@@ -32,19 +32,29 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void inisialisasiview(){
-        btnPrayaTengah = findViewById(R.id.btnPrayaTengah);
-        btnRinjani = findViewById(R.id.btnRinjani);
-        btnSegaraAnak = findViewById(R.id.btnSegaraAnak);
-        btnPrayaTengah.setOnClickListener(view -> bukaPostinganActivity("Praya Tengah"));
-        btnRinjani.setOnClickListener(view -> bukaPostinganActivity("Rinjani"));
-        btnSegaraAnak.setOnClickListener(view -> bukaPostinganActivity("Segara Anak"));
-    }
-
-    private void bukaPostinganActivity(String lokasi){
-        Intent intent = new Intent(MainActivity.this, PostingansActivity.class);
-        intent.putExtra(lokasi_postingan_key, lokasi);
+        Intent intent = new Intent(this, DaftarStatusActivity.class);
         startActivity(intent);
     }
+
+//    private void inisialisasiview(){
+//        btnPrayaTengah = findViewById(R.id.btnPrayaTengah);
+//        btnRinjani = findViewById(R.id.btnRinjani);
+//        btnSegaraAnak = findViewById(R.id.btnSegaraAnak);
+//        btnPrayaTengah.setOnClickListener(view -> bukaPostinganActivity("Praya Tengah"));
+//        btnRinjani.setOnClickListener(view -> bukaPostinganActivity("Rinjani"));
+//        btnSegaraAnak.setOnClickListener(view -> bukaPostinganActivity("Segara Anak"));
+//    }
+
+//    private  void bukaPostinganActivity(){
+//        Intent intent = new Intent(this, DaftarStatusActivity.class);
+//        startActivity(intent);
+//    }
+
+//    private void bukaPostinganActivity(String lokasi){
+//        Intent intent = new Intent(MainActivity.this, PostingansActivity.class);
+//        intent.putExtra(lokasi_postingan_key, lokasi);
+//        startActivity(intent);
+//    }
 
 
 }

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:padding="7dp">
+
+            <ImageButton
+                android:id="@+id/btnProfile"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/txtNamaAkun"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Edwin"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#757375"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="7dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/menu"
+                android:backgroundTint="#8390FA" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background"
+            android:backgroundTint="#7A000000">
+
+            <ImageView
+                android:id="@+id/btnGambar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="400dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pembina_lks" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="7dp">
+
+            <ImageButton
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/notif"
+                android:backgroundTint="#8390FA" />
+
+            <ImageButton
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/chat"
+                android:backgroundTint="#8390FA" />
+
+            <ImageButton
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/share"
+                android:backgroundTint="#8390FA" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/simpan"
+                android:backgroundTint="#8390FA" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
