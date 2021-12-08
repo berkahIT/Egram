@@ -25,7 +25,7 @@ public class DaftarStatusActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_status);
-        Intent intent = getIntent();
+//        Intent intent = getIntent();
 //        lokasi = intent.getStringExtra(MainActivity.lokasi_postingan_key);
         PostingansStrukturs = PostinganData.getAllPostingans();
         setupListView();
@@ -40,7 +40,7 @@ public class DaftarStatusActivity extends AppCompatActivity {
 
     private AdapterView.OnItemClickListener onListClick = new AdapterView.OnItemClickListener() {
         @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
             PostingansStruktur terpilih = PostingansStrukturs.get(position);
             bukaStatus(terpilih);
         }
