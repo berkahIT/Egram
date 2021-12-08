@@ -1,6 +1,8 @@
 package com.example.latihan1.model;
 
-public class PostingansStruktur {
+import java.io.Serializable;
+
+public class PostingansStruktur implements Serializable {
 
     private String lokasi;
     private String nama_akun;

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFFAFF"
     android:orientation="vertical"
-    tools:context=".DetailStatusAkunActivity">
+    tools:context=".DaftarStatusActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
@@ -252,8 +252,7 @@
                         <ListView
                             android:id="@+id/listview_status"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            />
+                            android:layout_height="match_parent" />
 
                     </LinearLayout>
 

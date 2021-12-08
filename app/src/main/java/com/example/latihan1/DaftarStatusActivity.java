@@ -13,10 +13,11 @@ import android.widget.ListView;
 
 import com.example.latihan1.model.PostingansStruktur;
 
+import java.io.Serializable;
 import java.util.List;
 
 public class DaftarStatusActivity extends AppCompatActivity {
-    public final static String STATUS_TERPILIH = "status_obj_Key";
+    public final static String STATUS_TERPILIH = "status_obj_key";
     List<PostingansStruktur> PostingansStrukturs;
     ListView listView;
     String lokasi;
@@ -49,7 +50,7 @@ public class DaftarStatusActivity extends AppCompatActivity {
     private void bukaStatus(PostingansStruktur statusTerpilih){
         Log.d("MAIN","Buka activity status");
         Intent intent = new Intent(this, DetailStatusAkunActivity.class);
-        intent.putExtra(STATUS_TERPILIH, (Parcelable) statusTerpilih);
+        intent.putExtra(STATUS_TERPILIH, statusTerpilih);
         startActivity(intent);
     }
 }
