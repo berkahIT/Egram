@@ -1,6 +1,7 @@
 package com.example.latihan1;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.LayerDrawable;
 import android.text.Layout;
 import android.view.LayoutInflater;
@@ -17,6 +18,8 @@ import java.util.List;
 
 public class DaftarStatusAdapter extends ArrayAdapter<PostingansStruktur> {
     Context context;
+
+    public final static String STATUS_TERPILIH = "status_obj_key";
 
     public DaftarStatusAdapter(Context context, List<PostingansStruktur> PostingansStrukturs){
         super(context, R.layout.row_daftar_status, PostingansStrukturs);
@@ -40,6 +43,10 @@ public class DaftarStatusAdapter extends ArrayAdapter<PostingansStruktur> {
             convertView = inflater.inflate(R.layout.row_daftar_status,parent,false);
             viewHolder.txtNamaAkun = convertView.findViewById(R.id.txtNamaAkun);
             viewHolder.btnGambar = convertView.findViewById(R.id.btnGambar);
+            viewHolder.btnGambar.setOnClickListener(view -> {;
+                Intent intent = new Intent(context.getApplicationContext(), DetailStatusAkunActivity.class);
+                intent.putExtra(STATUS_TERPILIH, postingansStruktur);
+                context.startActivity(intent);});
             convertView.setTag(viewHolder);
         }else{
             viewHolder = (ViewHolder)  convertView.getTag();
@@ -47,6 +54,7 @@ public class DaftarStatusAdapter extends ArrayAdapter<PostingansStruktur> {
 
         viewHolder.txtNamaAkun.setText(postingansStruktur.getNama_akun());
         viewHolder.btnGambar.setImageDrawable(context.getDrawable(postingansStruktur.getDrawableRes()));
+
         return  convertView;
     }
 
