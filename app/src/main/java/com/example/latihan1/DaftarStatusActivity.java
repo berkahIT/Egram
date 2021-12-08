@@ -13,6 +13,7 @@ import android.widget.ListView;
 
 import com.example.latihan1.model.PostingansStruktur;
 
+import java.io.Serializable;
 import java.util.List;
 
 public class DaftarStatusActivity extends AppCompatActivity {
