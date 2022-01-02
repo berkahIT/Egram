@@ -252,12 +252,7 @@
                         <ListView
                             android:id="@+id/listview_status"
                             android:layout_width="match_parent"
-<<<<<<< HEAD
                             android:layout_height="wrap_content"/>
-=======
-                            android:layout_height="match_parent" />
->>>>>>> 21def756a2c5ec20aedcae59a52cf1e9bc7d3eaf
-
                     </LinearLayout>
 
             </LinearLayout>
