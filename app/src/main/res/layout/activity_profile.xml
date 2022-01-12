@@ -27,7 +27,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Profile"
+                android:text="@string/profil"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:layout_gravity="center"/>
@@ -81,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:drawableLeft="@drawable/lokasi"
-                    android:text="Kota Selong"
+                    android:text="@string/kota_selong"
                     android:textColor="#FFFAFF"
                     android:textSize="12dp" />
             </LinearLayout>
@@ -90,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFAFF"
-                android:text="Follow"
+                android:text="@string/ikuti"
                 android:textAllCaps="false"
                 android:textColor="#000000" />
         </LinearLayout>
@@ -126,7 +126,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Follow" />
+                    android:text="@string/pengikut" />
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="1"
@@ -140,14 +140,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="78" />
+                    android:text="3" />
                 <TextView
                     android:textSize="12dp"
                     android:textColor="#FFFAFF"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Bucket" />
+                    android:text="@string/postingan" />
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="1"
@@ -168,7 +168,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Followers" />
+                    android:text="@string/mengikuti" />
             </LinearLayout>
         </LinearLayout>
 
@@ -181,7 +181,7 @@
         android:layout_height="wrap_content">
         <TextView
             android:textStyle="bold"
-            android:text="Bucket"
+            android:text="@string/sorotan"
             android:textSize="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -205,7 +205,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Ilustration"
+                        android:text="@string/ilustrasi"
                         android:textColor="#FFFAFF"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -222,7 +222,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Event"
+                        android:text="@string/peristiwa"
                         android:textColor="#FFFAFF"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -256,7 +256,7 @@
             android:paddingLeft="20dp"
             android:textStyle="bold"
             android:textSize="20dp"
-            android:text="Shot"
+            android:text="@string/postingan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

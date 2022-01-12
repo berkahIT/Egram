@@ -9,6 +9,8 @@ import android.os.Parcelable;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import com.example.latihan1.model.PostingansStruktur;
@@ -18,6 +20,7 @@ import java.util.List;
 
 public class DaftarStatusActivity extends AppCompatActivity {
     public final static String STATUS_TERPILIH = "status_obj_key";
+    ImageButton profile;
     List<PostingansStruktur> PostingansStrukturs;
     ListView listView;
     String lokasi;
@@ -30,6 +33,16 @@ public class DaftarStatusActivity extends AppCompatActivity {
 //        lokasi = intent.getStringExtra(MainActivity.lokasi_postingan_key);
         PostingansStrukturs = PostinganData.getAllPostingans();
         setupListView();
+
+        profile = findViewById(R.id.btnProfile);
+
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DaftarStatusActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setupListView(){

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Egram</string>
+
+    // Main Layout
+    <string name="cerita_anda">Your Stories</string>
+
+    // Detail Status Layout
+    <string name="postingan">Posts</string>
+
+    <string name="berada_di">Location in </string>
+    <string name="disukai_oleh">Likes by </string>
+    <string name="orang"> People</string>
+
+    <string name="profil">Profile</string>
+    <string name="kota_selong">City Selong</string>
+    <string name="ikuti">Follow</string>
+    <string name="pengikut">Followers</string>
+    <string name="mengikuti">Following</string>
+
+    <string name="sorotan">Highlight</string>
+    <string name="ilustrasi">Ilustration</string>
+    <string name="peristiwa">Event</string>
+
+    <string name="akun">Account</string>
+    <string name="nim">Student ID Number</string>
+    <string name="prodi">Study program</string>
+    <string name="teknik_informatika">Informatics Engineering</string>
+    <string name="hobi_j">Hobby</string>
+    <string name="hobi">My hobbies are touring and coding</string>
+</resources>

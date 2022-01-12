@@ -44,12 +44,12 @@ public class MainActivity extends AppCompatActivity {
 //        btnRinjani.setOnClickListener(view -> bukaPostinganActivity("Rinjani"));
 //        btnSegaraAnak.setOnClickListener(view -> bukaPostinganActivity("Segara Anak"));
 //    }
-
+//
 //    private  void bukaPostinganActivity(){
 //        Intent intent = new Intent(this, DaftarStatusActivity.class);
 //        startActivity(intent);
 //    }
-
+//
 //    private void bukaPostinganActivity(String lokasi){
 //        Intent intent = new Intent(MainActivity.this, PostingansActivity.class);
 //        intent.putExtra(lokasi_postingan_key, lokasi);

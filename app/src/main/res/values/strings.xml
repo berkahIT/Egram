@@ -1,5 +1,31 @@
 <resources>
     <string name="app_name">Egram</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // Main Layout
+    <string name="cerita_anda">Cerita Anda</string>
+    
+    // Detail Status Layout
+    <string name="postingan">Postingan</string>
+
+    <string name="berada_di">Berada di</string>
+    <string name="disukai_oleh">Disukai oleh</string>
+    <string name="orang">Orang</string>
+
+    <string name="profil">Profil</string>
+    <string name="kota_selong">Kota Selong</string>
+    <string name="ikuti">Ikuti</string>
+    <string name="pengikut">Pengikut</string>
+    <string name="mengikuti">Mengikuti</string>
+
+    <string name="sorotan">Sorotan</string>
+    <string name="ilustrasi">Ilustrasi</string>
+    <string name="peristiwa">Peristiwa</string>
+
+    <string name="akun">Akun</string>
+    <string name="nim">Nomor Induk Mahasiswa</string>
+    <string name="prodi">Program Studi</string>
+    <string name="teknik_informatika">Teknik Informatika</string>
+    <string name="hobi_j">Hobi</string>
+    <string name="hobi">Hobi saya adalah touring dan mengoding</string>
+
 </resources>

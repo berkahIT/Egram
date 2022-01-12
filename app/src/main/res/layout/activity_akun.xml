@@ -25,7 +25,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Akun"
+                android:text="@string/akun"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:layout_gravity="center"/>
@@ -85,7 +85,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NIM"
+            android:text="@string/nim"
             android:textColor="#757375"/>
 
         <TextView
@@ -106,14 +106,14 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Prodi"
+            android:text="@string/prodi"
             android:textColor="#757375"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Teknik Informatika"
+            android:text="@string/teknik_informatika"
             android:textColor="#757375"/>
 
         <View
@@ -127,14 +127,14 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hobi"
+            android:text="@string/hobi_j"
             android:textColor="#757375"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Hobi saya adalah touring dan mengoding"
+            android:text="@string/hobi"
             android:textColor="#757375"/>
 
         <View

@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -14,6 +16,7 @@ public class DetailStatusAkunActivity extends AppCompatActivity {
     PostingansStruktur postingansStruktur;
     TextView txtAkun,txtLokasi,txtLike,txtTgl;
     ImageView imgPostingan;
+    ImageButton home,profile;
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,16 @@ public class DetailStatusAkunActivity extends AppCompatActivity {
         postingansStruktur = (PostingansStruktur) intent.getSerializableExtra(DaftarStatusActivity.STATUS_TERPILIH);
         inisialisasiView();
         tampilkanDetailStatusAkun(postingansStruktur);
+
+        profile = findViewById(R.id.btnProfile);
+
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DetailStatusAkunActivity.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void inisialisasiView(){

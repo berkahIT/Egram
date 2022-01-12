@@ -25,7 +25,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Postingan"
+                android:text="@string/postingan"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:layout_gravity="center"/>
@@ -35,11 +35,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
-            <ImageButton
-                android:id="@+id/btnHome"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:background="@drawable/home" />
+<!--            <ImageButton-->
+<!--                android:id="@+id/btnHome"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:background="@drawable/home" />-->
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
 
@@ -77,12 +77,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Berada di "
+                android:text="@string/berada_di"
                 android:textSize="13dp"
                 android:textStyle="bold"
                 android:textColor="#757375"/>
 
             <TextView
+                android:layout_marginLeft="5dp"
                 android:id="@+id/txtLokasi"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -182,21 +183,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Disukai oleh "
+                    android:text="@string/disukai_oleh"
                     android:textColor="#757375"/>
 
                 <TextView
+                    android:layout_marginLeft="5dp"
                     android:id="@+id/txtLike"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="jumlah like "
+                    android:text="jumlah like"
                     android:textColor="#757375"/>
 
                 <TextView
+                    android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text=" Orang"
+                    android:text="@string/orang"
                     android:textColor="#757375"/>
 
             </LinearLayout>
