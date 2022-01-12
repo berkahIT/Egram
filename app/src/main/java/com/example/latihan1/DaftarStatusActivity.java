@@ -16,12 +16,13 @@ import android.widget.ListView;
 import com.example.latihan1.model.PostingansStruktur;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 public class DaftarStatusActivity extends AppCompatActivity {
     public final static String STATUS_TERPILIH = "status_obj_key";
     ImageButton profile;
-    List<PostingansStruktur> PostingansStrukturs;
+    List<PostingansStruktur> PostingansStrukturs = new ArrayList<>();
     ListView listView;
     String lokasi;
     @Override
@@ -47,14 +48,14 @@ public class DaftarStatusActivity extends AppCompatActivity {
 
     private void setupListView(){
         listView = findViewById(R.id.listview_status);
-        DaftarStatusAdapter adapter = new DaftarStatusAdapter(this,PostingansStrukturs);
+        DaftarStatusAdapter adapter = new DaftarStatusAdapter(DaftarStatusActivity.this,PostingansStrukturs);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(onListClick);
     }
 
     private AdapterView.OnItemClickListener onListClick = new AdapterView.OnItemClickListener() {
         @Override
-        public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             PostingansStruktur terpilih = PostingansStrukturs.get(position);
             bukaStatus(terpilih);
         }

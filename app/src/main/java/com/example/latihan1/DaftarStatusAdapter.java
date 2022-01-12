@@ -37,20 +37,22 @@ public class DaftarStatusAdapter extends ArrayAdapter<PostingansStruktur> {
         PostingansStruktur postingansStruktur = getItem(position);
         ViewHolder viewHolder;
 
-        if(convertView == null){
+//        if(convertView == null){
             viewHolder = new ViewHolder();
             LayoutInflater inflater = LayoutInflater.from(getContext());
             convertView = inflater.inflate(R.layout.row_daftar_status,parent,false);
             viewHolder.txtNamaAkun = convertView.findViewById(R.id.txtNamaAkun);
             viewHolder.btnGambar = convertView.findViewById(R.id.btnGambar);
+
             viewHolder.btnGambar.setOnClickListener(view -> {;
                 Intent intent = new Intent(context.getApplicationContext(), DetailStatusAkunActivity.class);
                 intent.putExtra(STATUS_TERPILIH, postingansStruktur);
                 context.startActivity(intent);});
             convertView.setTag(viewHolder);
-        }else{
-            viewHolder = (ViewHolder)  convertView.getTag();
-        }
+
+//        }else{
+//            viewHolder = (ViewHolder)  convertView.getTag();
+//        }
 
         viewHolder.txtNamaAkun.setText(postingansStruktur.getNama_akun());
         viewHolder.btnGambar.setImageDrawable(context.getDrawable(postingansStruktur.getDrawableRes()));
