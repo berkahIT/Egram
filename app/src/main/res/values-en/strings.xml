@@ -21,6 +21,7 @@
     <string name="sorotan">Highlight</string>
     <string name="ilustrasi">Ilustration</string>
     <string name="peristiwa">Event</string>
+    <string name="logo">Logo</string>
 
     <string name="akun">Account</string>
     <string name="nim">Student ID Number</string>
@@ -28,4 +29,21 @@
     <string name="teknik_informatika">Informatics Engineering</string>
     <string name="hobi_j">Hobby</string>
     <string name="hobi">My hobbies are touring and coding</string>
+
+    // Data
+    <string name="tgl_praya1">17 September 2021</string>
+    <string name="tgl_praya2">09 September 2021</string>
+    <string name="tgl_praya3">20 September 2021</string>
+
+    <string name="tgl_segara1">29 September 2021</string>
+    <string name="tgl_segara2">07 September 2021</string>
+    <string name="tgl_segara3">11 September 2021</string>
+
+    <string name="tgl_rinjani1">24 September 2021</string>
+    <string name="tgl_rinjani2">22 September 2021</string>
+    <string name="tgl_rinjani3">21 September 2021</string>
+
+    // Notif
+    <string name="posisi_pertama">Already in first place</string>
+    <string name="posisi_terakhir">Already in last position</string>
 </resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Egram</string>
+
+    // Main Layout
+    <string name="cerita_anda">ストーリー</string>
+
+    // Detail Status Layout
+    <string name="postingan">投稿</string>
+
+    <string name="berada_di">の場所</string>
+    <string name="disukai_oleh">好きな人</string>
+    <string name="orang">人</string>
+
+    <string name="profil">プロフィール</string>
+    <string name="kota_selong">シティ Selong</string>
+    <string name="ikuti">従う</string>
+    <string name="pengikut">付け馬</string>
+    <string name="mengikuti">以下</string>
+
+    <string name="sorotan">圧巻</string>
+    <string name="ilustrasi">図</string>
+    <string name="peristiwa">イベント</string>
+    <string name="logo">ロゴ</string>
+
+    <string name="akun">アカウント</string>
+    <string name="nim">学生証番号</string>
+    <string name="prodi">学習プログラム</string>
+    <string name="teknik_informatika">情報工学</string>
+    <string name="hobi_j">趣味</string>
+    <string name="hobi">私の趣味はツアーとコーディングです</string>
+
+    // Data
+    <string name="tgl_praya1">2021 九月 17</string>
+    <string name="tgl_praya2">2021 九月 09</string>
+    <string name="tgl_praya3">2021 九月 20</string>
+
+    <string name="tgl_segara1">2021 九月 29</string>
+    <string name="tgl_segara2">2021 九月 07</string>
+    <string name="tgl_segara3">2021 九月 11</string>
+
+    <string name="tgl_rinjani1">2021 九月 24</string>
+    <string name="tgl_rinjani2">2021 九月 22</string>
+    <string name="tgl_rinjani3">2021 九月 21</string>
+
+    // Notif
+    <string name="posisi_pertama">すでにそもそも</string>
+    <string name="posisi_terakhir">すでに最後の位置にあります</string>
+</resources>

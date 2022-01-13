@@ -89,7 +89,7 @@ public class PostingansActivity extends AppCompatActivity {
     private void postinganPertama() {
         int posAwal = 0;
         if (indeksTampil == posAwal) {
-            Toast.makeText(this,"Sudah di posisi pertama",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,getString(R.string.posisi_pertama),Toast.LENGTH_SHORT).show();
             return;
         } else {
             indeksTampil = posAwal;
@@ -100,7 +100,7 @@ public class PostingansActivity extends AppCompatActivity {
     private void postinganTerakhir() {
         int posAkhir = PostingansStrukturs.size() - 1;
         if (indeksTampil == posAkhir) {
-            Toast.makeText(this,"Sudah di posisi terakhir",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,getString(R.string.posisi_terakhir),Toast.LENGTH_SHORT).show();
             return;
         } else {
             indeksTampil = posAkhir;
@@ -110,7 +110,7 @@ public class PostingansActivity extends AppCompatActivity {
 
     private void postinganBerikutnya() {
         if (indeksTampil == PostingansStrukturs.size() - 1) {
-            Toast.makeText(this,"Sudah di posisi terakhir",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,getString(R.string.posisi_terakhir),Toast.LENGTH_SHORT).show();
             return;
         } else {
             indeksTampil++;
@@ -120,7 +120,7 @@ public class PostingansActivity extends AppCompatActivity {
 
     private void postinganebelumnya() {
         if (indeksTampil == 0) {
-            Toast.makeText(this,"Sudah di posisi pertama",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,getString(R.string.posisi_pertama),Toast.LENGTH_SHORT).show();
             return;
         } else {
             indeksTampil--;

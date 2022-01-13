@@ -20,6 +20,7 @@
     <string name="sorotan">Sorotan</string>
     <string name="ilustrasi">Ilustrasi</string>
     <string name="peristiwa">Peristiwa</string>
+    <string name="logo">Logo</string>
 
     <string name="akun">Akun</string>
     <string name="nim">Nomor Induk Mahasiswa</string>
@@ -28,4 +29,20 @@
     <string name="hobi_j">Hobi</string>
     <string name="hobi">Hobi saya adalah touring dan mengoding</string>
 
+    // Data
+    <string name="tgl_praya1">17 September 2021</string>
+    <string name="tgl_praya2">09 September 2021</string>
+    <string name="tgl_praya3">20 September 2021</string>
+
+    <string name="tgl_segara1">29 September 2021</string>
+    <string name="tgl_segara2">07 September 2021</string>
+    <string name="tgl_segara3">11 September 2021</string>
+
+    <string name="tgl_rinjani1">24 September 2021</string>
+    <string name="tgl_rinjani2">22 September 2021</string>
+    <string name="tgl_rinjani3">21 September 2021</string>
+
+    // Notif
+    <string name="posisi_pertama">Sudah di posisi pertama</string>
+    <string name="posisi_terakhir">Sudah di posisi terakhir</string>
 </resources>

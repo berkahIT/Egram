@@ -32,7 +32,7 @@ public class DaftarStatusActivity extends AppCompatActivity {
         setContentView(R.layout.activity_status);
 //        Intent intent = getIntent();
 //        lokasi = intent.getStringExtra(MainActivity.lokasi_postingan_key);
-        PostingansStrukturs = PostinganData.getAllPostingans();
+        PostingansStrukturs = PostinganData.getAllPostingans(this);
         setupListView();
 
         profile = findViewById(R.id.btnProfile);
