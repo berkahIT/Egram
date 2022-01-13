@@ -1,6 +1,6 @@
 # Egram
 
-Egram adalah sebuah aplikasi yang mencontek dari Instagram tetapi dengan hasil yang lebih ciamik. Karena saya yang buat sendiri :v
+Egram adalah sebuah projek semester 3 saya. Saya mengambil refrensi dari instagram. Terdapat 3 bahasa disini, indonesia, inggris dan jepang.
 
 ![Tampilan](indonesia.gif)
 ![Tampilan](inggris.gif)
